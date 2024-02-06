@@ -27,7 +27,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        descripcion_producto = "coca cola"
+        alert("descripcion", descripcion_producto)
         
         
     

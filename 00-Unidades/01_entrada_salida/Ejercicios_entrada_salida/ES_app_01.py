@@ -5,8 +5,9 @@ from tkinter.simpledialog import askstring as prompt
 import customtkinter
 
 '''
-nombre:
-apellido:
+nombre: victor
+apellido: caro
+tutor: alejandro
 ---
 Ejercicio: entrada_salida_01
 ---
@@ -26,7 +27,7 @@ class App(customtkinter.CTk):
         self.btn_mostrar.grid(row=2, pady=20, columnspan=2, sticky="nsew")
 
     def btn_mostrar_on_click(self):
-        pass
+        alert("primer programa", "Esto no anda, funciona")
 
 
 if __name__ == "__main__":

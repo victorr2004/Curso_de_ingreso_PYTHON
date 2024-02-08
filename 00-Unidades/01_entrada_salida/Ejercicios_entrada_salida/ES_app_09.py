@@ -33,7 +33,17 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        operando1_str = self.txt_sueldo.get()
+
+        operando1 = int(operando1_str)
+
+        resultado = operando1 * 1.15
+
+        alert("resultado", "el resultado de su sueldo " + "mas el incremento del 15% es : " + str(resultado))
+
+        
+
+
         
     
 if __name__ == "__main__":

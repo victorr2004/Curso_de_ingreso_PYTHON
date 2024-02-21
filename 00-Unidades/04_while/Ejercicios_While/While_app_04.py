@@ -30,7 +30,16 @@ class App(customtkinter.CTk):
         
     
     def btn_validar_numero_on_click(self):
-        pass
+        numero = prompt("UTN", "ingrese un numero")
+        numero = int(numero)
+
+        while not (numero >= 0 and numero <= 9):
+            numero = prompt("ERROR", "reingrese el numero")
+            numero = int(numero)
+
+        alert("UTN", "ingreso correcto")
+
+
     
 if __name__ == "__main__":
     app = App()

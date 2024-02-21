@@ -37,7 +37,12 @@ class App(customtkinter.CTk):
 
 
     def btn_comenzar_ingreso_on_click(self):
-        pass
+        bandera = True
+
+        while True:
+            numero_ingresado = prompt("EJERCICIO 10", "ingrese un numero")
+            if numero_ingresado == None:
+                break
 
     
 if __name__ == "__main__":

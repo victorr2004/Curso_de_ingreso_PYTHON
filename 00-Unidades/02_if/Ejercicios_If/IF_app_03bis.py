@@ -11,7 +11,8 @@ apellido:caro
 Ejercicio: if_03bis
 ---
 Enunciado:
-A partir del ingreso de la altura de un basquetbolista determinar si es pivot o no. Para serlo el mismo deberá medir mas de 1.80 metros
+A partir del ingreso de la altura de un basquetbolista determinar si es pivot o no.
+ Para serlo el mismo deberá medir mas de 1.80 metros
 '''
 
 
